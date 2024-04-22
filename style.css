@@ -62,6 +62,13 @@ span {
   box-shadow: 0 0 25px#368f8b;
   color: whitesmoke;
 }
+/* Navbar responsive */
+@media screen and (max-width: 800px) {
+  .navbar a {
+    display: none;
+  }
+}
+
 .home {
   width: 100%;
   min-height: 100vh;
@@ -91,6 +98,12 @@ span {
   border-radius: 50%;
   width: 350px;
   border: 0.2rem solid#160f29;
+}
+
+@media screen and (max-width: 800px) {
+  .home {
+    flex-direction: column;
+  }
 }
 ::-webkit-scrollbar {
   width: 15 px;
@@ -178,7 +191,10 @@ span {
 .educ-content span i {
   font-size: 35px;
 }
-
+.education.anim {
+  display: flex;
+  direction: horizontal;
+}
 .skills {
   width: 100%;
   min-height: 100vh;
@@ -227,11 +243,7 @@ span {
   color: white;
   font-size: 42px;
 }
-.achievement-box img {
-  border-radius: 50%;
-  width: 350px;
-  border: 0.2rem solid white;
-}
+
 .achievement-content p {
   color: whitesmoke;
   line-height: 2.5rem;
@@ -266,6 +278,24 @@ span {
   border-radius: 0.8rem;
   margin: 1rem 0;
   resize: none;
+}
+.contact-form .btn-1 {
+  padding: 15px 28px;
+  background-color: #1e6965;
+  color: #160f29;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 12x;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  font-weight: 600;
+  cursor: pointer;
+}
+.contact-form .btn-1:hover {
+  background-color: white;
+  color: #160f29;
+  border: 2px solid#368f8b;
+  box-shadow: 0 0 25px#368f8b, 0 0 50px#368f8b;
 }
 .footer {
   position: relative;
