@@ -96,12 +96,6 @@ span {
   margin: 35px 0 30px;
 }
 
-.img-box img {
-  border-radius: 50%;
-  width: 350px;
-  border: 0.2rem solid#160f29;
-}
-
 @media screen and (max-width: 800px) {
   .home {
     flex-direction: column;
