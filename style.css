@@ -103,7 +103,11 @@ span {
   .home {
     flex-direction: column;
   }
- 
+  .home-anim {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 60px;
+  }
 }
 ::-webkit-scrollbar {
   width: 15 px;
